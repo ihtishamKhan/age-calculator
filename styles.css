@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.8em;
+    color: #ff7e7e;
+}
+
+.birthdays-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.birthday-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 16px 0 30px 0;
+    width: 300px;
+}
+
+.birthday-card .title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ff7e7e;
+}
+
+.birthday-card:nth-child(2) .title {
+    background-color: #fff;
+}
+
+.birthday-card .container-body {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.birthday-card:nth-child(2) {
+    background-color: #ff7e7e;
+    /* it should be bigger in size then other two */
+}
+
+.form-label {
+    color: #fff;
+}
